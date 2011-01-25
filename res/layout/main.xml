@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<!--LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_height="wrap_content" android:text="G-Force" android:layout_width="fill_parent" android:layout_weight="1"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:id="@+id/GVal"></TextView>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:text="Max G-Value"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:id="@+id/MaxGVal"></TextView>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:text="Min G-Value"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:id="@+id/MinGVal"></TextView>
+</LinearLayout-->
+<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent"><Button android:layout_height="wrap_content" android:id="@+id/CalibrateButton" android:text="@string/button_text" android:layout_width="fill_parent"></Button>
+</LinearLayout>
+<TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent"><TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1"><TextView android:layout_height="wrap_content" android:text="Current" android:layout_width="fill_parent" android:layout_weight="1" android:textSize="12pt"></TextView><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:id="@+id/gCurTxt" android:textSize="12pt" android:text="@string/txt_default"></TextView>
+
+
+
+</TableRow><TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1"><TextView android:layout_height="wrap_content" android:text="Min" android:layout_width="fill_parent" android:layout_weight="1" android:textSize="12pt"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:id="@+id/gMinTxt" android:textSize="12pt" android:text="@string/txt_default"></TextView>
+
+
+</TableRow><TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1"><TextView android:layout_height="wrap_content" android:text="Max" android:layout_width="fill_parent" android:layout_weight="1" android:textSize="12pt"></TextView><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:id="@+id/gMaxTxt" android:textSize="12pt" android:digits="+##.##" android:text="@string/txt_default"></TextView>
+
+
+
+</TableRow>
+</TableLayout>
+
+
+<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent"><Button android:layout_height="wrap_content" android:id="@+id/ExitButton" android:text="Exit" android:layout_width="fill_parent"></Button>
+</LinearLayout>
+</LinearLayout>
